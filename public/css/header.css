@@ -1,0 +1,294 @@
+header {
+width: 100%;
+background-color: #FFFFFF;
+--tw-shadow: 0 1px 0 rgba(0, 0, 0, .14), 0 2px 0 rgba(0, 0, 0, .05);
+            --tw-shadow-colored: 0 1px 0 var(--tw-shadow-color), 0 2px 0 var(--tw-shadow-color);
+            box-shadow: var(--tw-shadow);
+}
+.top {
+    width: 100%;
+    height: 60px;
+}
+.top img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.middle {
+    width: 100%;
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.logonsearch {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo {
+    width: 200px;
+    height: 100%;
+    display: flex;
+}
+.logo img {
+width: 195px;
+height: 30px;
+object-fit: cover;
+margin: auto;
+}
+.searchbar {
+    width: 600px;
+    height: 44px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    background-color: var(--bg-gray);
+    border-radius: 8px;
+    padding: 0 16px;
+    margin-right: 20px;
+}
+.searchicon {
+    width: 24px;
+    height: 24px;
+}
+input {
+    width: calc(100% - 24px);
+    height: 44px;
+    background-color: transparent;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: 0;
+    outline: unset;
+    padding: 0 16px;
+    font-size: 12px;     
+  font-weight: 450;     
+  font-stretch: 100%; 
+  color: var(--bg-dark-gray);
+}
+.registernshop {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    padding-right: 30px;
+}
+.btn {
+    width: 140px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid var(--bg-snow-white);
+    padding: 8px 16px;
+
+}
+.btn a {
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+.btn span {
+    padding: 0 6px;
+}
+.shop {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+   
+}
+.bottom {
+    width: 100%;
+    height: 40px;
+    padding: 0 16px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.menu {
+    width: 70%;
+    height: 100%;
+}
+.location {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: var(--Genie);
+    fill: var(--Genie);
+}
+nav {
+    width: 100%;
+    height: 100%;
+
+}
+.firstmenu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    list-style: none;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 18px;
+}
+.firstmenuitems {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: var(--Genie);
+    fill: var(--Genie);
+    height: 100%;
+}
+li a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 12px;
+    color: var(--Grey-Web);
+}
+.menuline {
+    margin-right: 16px;
+    color: var(--bg-snow-white);
+
+}
+p {
+    padding-right: 3px;
+}
+.loc {
+    padding-right: 8px;
+}
+
+.submenu {
+    width: 82%;
+    height: 500px;
+    background-color: aquamarine;
+    position: absolute;
+    top: 169px;
+    z-index: 999999999999999999999999999999;
+    
+    /* display: none; */
+    
+}
+.firstmenuitems:hover {
+    .submenu {
+        display: block;
+    }
+}
+
+
+.megamenu {
+    width: 18%;
+    height: 100%;
+    list-style: none;
+    overflow: auto;
+    
+}
+
+.menuitems {
+    width: 100%;
+    height: 52px;
+    background-color: gold;
+    line-height: 52px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding-right: 8px;
+    cursor: pointer;
+}
+.menutext {
+    padding-right: 5px;
+    font-size: 12px;
+}
+.SubMenuVariety {
+    width: calc(100% - 18%);
+    height: 100%;
+    background-color: blueviolet;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    overflow: auto;
+}
+
+/* ghesmate abi balaye safhe */
+.TopOffer {
+    display: flex;
+    align-items: center;
+    fill: var(--Light-Blue);
+
+}
+.TopOffers {
+    size: 1.2rem;
+    font-weight: 700;
+    font-stretch: 100%;
+    font-size: 12px;
+   color: var(--Blue);
+    
+
+}
+
+.MobileSubmenu {
+    width: 24%;
+    height: 100%;
+    background-color: orange;
+    flex-flow: row wrap;
+    list-style: none;
+    
+}
+/* fasele beyn title ha ba safhe */
+
+.MobileSubtitleMain {
+    display: flex;
+    align-items: center;
+}
+
+.MobileSubtitle {
+    list-style: none;
+    height: 34px;
+    padding-right: 8px;
+    
+}
+
+.BoldMobileSubtitle {
+    font-size: 13.3px;
+    font-weight: bold;
+    padding-right: 5px;
+    
+}
+.redline {
+    color: rgb(211, 0, 0);
+    font-weight: 400;
+}
+
+.MobileSubtitleMainSecond {
+    display: flex;
+    align-items: center;
+    padding-top: 53px;
+}
+
+/* bakhshe kalaye digital */
+.DigitalProductSubmenu {
+    width: 24%;
+    height: 100%;
+    background-color: rgb(0, 13, 255);
+    flex-flow: row wrap;
+    list-style: none;
+    display: none;
+}
