@@ -178,10 +178,11 @@ p {
     height: 500px;
     background-color: aquamarine;
     position: absolute;
-    top: 169px;
+    top: 168px;
+    border-bottom-left-radius: 25%;
     z-index: 999999999999999999999999999999;
-    
-    /* display: none; */
+    /* hereeeeee */
+    display: none; 
     
 }
 .firstmenuitems:hover {
@@ -210,6 +211,17 @@ p {
     padding-right: 8px;
     cursor: pointer;
 }
+.menuitemsSecond {
+    width: 100%;
+    height: 52px;
+    background-color: gold;
+    line-height: 52px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding-right: 8px;
+    cursor: pointer;
+}
 .menutext {
     padding-right: 5px;
     font-size: 12px;
@@ -225,6 +237,11 @@ p {
     gap: 5px;
     justify-content: center;
     overflow: auto;
+    z-index: 2;
+    
+  
+   
+    border-radius: 0 0 0 25px;
 }
 
 /* ghesmate abi balaye safhe */
@@ -243,6 +260,7 @@ p {
     
 
 }
+/* payane ghesmate abi balaya safhe */
 
 .MobileSubmenu {
     width: 24%;
@@ -250,6 +268,8 @@ p {
     background-color: orange;
     flex-flow: row wrap;
     list-style: none;
+    display: block;
+    
     
 }
 /* fasele beyn title ha ba safhe */
@@ -287,8 +307,152 @@ p {
 .DigitalProductSubmenu {
     width: 24%;
     height: 100%;
-    background-color: rgb(0, 13, 255);
+    background-color: rgb(217, 218, 242);
     flex-flow: row wrap;
     list-style: none;
     display: none;
+   
+}
+
+.SubMenuVariety2 {
+    width: calc(100% - 18%);
+    height: 100%;
+    background-color: green;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    overflow: auto;
+    z-index: 1;
+}
+
+.menuitems:hover .MobileSubmenu {
+    display: block;
+} 
+.menuitems:hover .SubMenuVariety {
+    z-index: 2;
+}
+/* hover submenu 2 */
+ .menuitemsSecond:hover .DigitalProductSubmenu {
+    display: block;
+}
+
+.menuitemsSecond:hover .SubMenuVariety2 {
+    z-index: 3;
+}
+
+/* hover submenu 3 */
+.menuitemsThird:hover .StationerySubmenu {
+    display: block;
+}
+.menuitemsThird:hover .SubMenuVariety3 {
+    z-index: 4;
+}
+
+/* bakhshe 3 menu */
+
+.menuitemsThird {
+    width: 100%;
+    height: 52px;
+    background-color: gold;
+    line-height: 52px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding-right: 8px;
+    cursor: pointer;
+}
+.StationerySubmenu {
+    width: 24%;
+    height: 100%;
+    background-color: rgb(144, 10, 149);
+    flex-flow: row wrap;
+    list-style: none;
+    display: none;
+    
+}
+
+.SubMenuVariety3 {
+    width: calc(100% - 18%);
+    height: 100%;
+    background-color: rgb(225, 126, 182);
+    position: absolute;
+    left: 0;
+    top: 0px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    overflow: auto;
+    z-index: 1;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style for the popup */
+.popup {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+    z-index: 999999999;
+}
+
+/* Popup content */
+.popup-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px; /* Set the width of the popup */
+    height: 650px; /* Set a fixed height for the popup */
+    position: relative; /* Allows positioning inside */
+    text-align: center;
+    border-top-left-radius: 25px; /* Top left corner */
+    border-top-right-radius: 25px; /* Top right corner */
+    border-bottom-left-radius: 25px; /* Bottom left corner */
+    border-bottom-right-radius: 25px; /* Bottom right corner */
+    overflow: auto; /* Enable scrolling if content overflows */
+    z-index: 999999999999;
+}
+
+/* Header container */
+.popup-header-container {
+    display: flex; /* Use flexbox to align items */
+    justify-content: space-between; /* Space between elements */
+    padding-left: 30px; /* Left padding */
+    padding-right: 30px; /* Right padding */
+    align-items: center; /* Center items vertically */
+    z-index: 999999999999999999;
+}
+
+/* Close button */
+.close {
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Header for انتخاب شهر */
+.popup-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0; /* Remove default margin */
 }
