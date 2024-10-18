@@ -2,58 +2,108 @@
     width: 100%;
     height: 170px;
     padding: 16px 43px;
+    
+}
+
+.mySwiper {
+    width: 100%;
+    height: 100%;
+}
+
+.mySwiper .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center;
+    width: 84px; /* Fixed width for the slide */
+    height: 170px; /* Fixed height for the entire slide */
+    margin: auto;
+}
+
+.whitespace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    padding: 3px;
+    border: 3px solid #9B489B;
     background-color: white;
+    border-top: 3px solid #CF4097;
+    border-right: 3px solid #CF4097;
+    border-left: 3px solid #9B489B;
+}
+
+/* Fix the height of the text container */
+.slidetext {
+    font-size: 11px;
+    text-align: center;
+    width: 84px; /* Matches image width */
+    display: block;
+    height: 60px; /* Fixed height for text container */
+     /* Prevents text from overflowing */
+    padding-top: 8px;
+    color: var(--Genie);
+    
+    
+    
+}
+
+.mySwiper .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.mySwiper>.swiper-button-next {
+    background-color: white;
+    border: 1.4px solid var(--bg-snow-white);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    top: 55%;
+}
+
+.mySwiper>.swiper-button-prev {
+    background-color: white;
+    border: 1.4px solid var(--bg-snow-white);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    top: 55%;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 13px; 
+    color: var(--Dark-Gray);
+}
+/* first slider end */
+
+
+
+
+
+  /* second slider */
+  .SecondSlider {
+    width: 100%;
+    height: 400px;
   }
-  
   .swiper {
     width: 100%;
     height: 100%;
   }
-  
-  /* Wrapper for each slide, creating space and a colorful border */
-  .whitespace {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-    /* Circular shape */
-    width: 84px;  /* Match the width of the slide */
-    height: 84px; /* Match the height of the slide */
-    border-radius: 50%;
-  
-    /* Space between the slide and border */
-    padding: 3px; /* Creates the white space around the slide */
-    
-    /* Colorful border */
-    border: 3px solid #9B489B; /* Change this to your desired color */
-    background-color: white; /* Background color of the space */
-    border-top: 3px solid #CF4097;
-    border-right: 3px solid #CF4097 ;
-    border-left: 3px solid #9B489B;
-    
-  }
-  
-  /* Styles for the slide itself */
+
   .swiper-slide {
     text-align: center;
+    font-size: 18px;
+    background: #fff;
     display: flex;
-    flex-direction: column; /* Change direction to column for stacking */
     justify-content: center;
     align-items: center;
-    width: 100%; /* Takes full width of the wrapper */
-    height: 100%; /* Takes full height of the wrapper */
-    margin: auto; /* Center the slide */
-  }
-  
-  /* Styles for the slide text */
-  .slidetext {
-    margin-top: 8px; /* Space between the slide and the text */
-    font-size: 12px; /* Font size for the slide text */
-    color: #333; /* Text color */
-    text-align: center; /* Center the text */
-    display: block; /* Make sure it displays as a block */
-    height: 46px;
-    width: 84px;
   }
 
   .swiper-slide img {
@@ -61,21 +111,27 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 50%;
   }
 
-  .swiper-button-next,
+  .mySwiperSecond>.swiper-button-next,
   .swiper-button-prev {
-background-color: white;
-border: 1.4px solid var(--bg-snow-white);
-border-radius: 50%;
-width: 40px;
-height: 40px;
-top: 55%;
+      background-color: white;
+      border: 1.4px solid var(--bg-snow-white);
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      top: 90%;
+      right: 4%;
+      margin-right: 20px;
   }
 
-  .swiper-button-next::after,
-  .swiper-button-prev::after {
-    font-size: 13px; 
-    color: var(--Dark-Gray);
+  .mySwiperSecond {
+    cursor: pointer;
   }
+
+/* second slider end */
+
+
+
+
+ 
