@@ -71,12 +71,19 @@ main {
 
 
 /* incredible offer start */
+
+/* incredible offer right start */
 .IncredibleOffer {
     margin: 0 48px;
     width: calc(100% - 96px); 
     height: 294px;
     background-color: var(--Paradise-Pink);
-    border-radius: 25px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+    row-gap: 16px;
 }
 
 .incredibleoffers {
@@ -89,6 +96,7 @@ main {
     align-items: center;
     gap: 12px;
     justify-content: space-between;
+    padding: 20px 0;
 
 }
 
@@ -114,7 +122,210 @@ main {
 
 
 
+/* incredible supermarket start */
 
+.incredibleSupermarket {
+    width: calc(100% - 96px);
+    height: 110px;
+    background-color: var(--App-Background);
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 16px;
+    position: relative;
+}
 
+.incredibleInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row wrap;
+}
 
-/* incredible offer end */
+.superbox {
+    width: 62px;
+    height: 66px;
+}
+.superbox>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.supertext {
+    width: 250px;
+    height: 28px;
+    margin: 0 20px;
+}
+.supertext>img {
+    width: 100%;
+    height: 100%;
+}
+
+.superbutton {
+    width: 110px;
+    height: 28px;
+    background-color: var(--Persian-Green);
+    border-radius: 9999px;
+}
+
+/* left side */
+.incredibleChoose {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.incredibleOption {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.ChooseOptions {
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 8px;
+    margin: 16px 0 16px 8px;
+    z-index: 1;
+    position: relative;
+    
+}
+.saleTag2 {
+    font-size: 12px;
+    width: 34px;
+    height: 20px;
+    background-color: var(--Paradise-Pink);
+    border-radius: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 18px;
+    left: 8px;
+  }
+.ChooseOptions>img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 50%;
+}
+.moreProductbtn {
+    width: 142.55px;
+    height: 50.04px;
+    background-color: white;
+    padding: 12px 20px;
+    /* Add margin to align with .ChooseOptions */
+    margin-left: 8px; /* Match the left margin of .ChooseOptions */
+    margin-bottom: 0px; /* Align with the bottom margin of .ChooseOptions */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    z-index: 1;
+}
+.svgunder {
+    position: absolute;
+    left: 0;
+}
+/* incredible supermarket end */
+
+/* four options start */
+.container {
+    width: calc(100% - 96px);
+    height: 242px;
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.adv {
+    width: 322px;
+    height: 242px;
+    background-color: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.adv>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* four options end */
+
+/* Shopping based on category start */
+.Title {
+    width: 224px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    color: var(--Near-Black);
+}
+.base {
+    width: calc(100% - 96px);
+    height: 320px;
+}
+.categorized {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subcategory {
+    width: 108px;
+    height: 160px;
+    margin: 0 19px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.subcategory>img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.subcategory>span {
+    width: 100%;
+    height: 26px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--Near-Black);
+}
+
+/* Shopping based on category end */
+
+/* sale two parted start */
+.sale {
+    width: calc(100% - 96px);
+    height: 264px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.saleAdv {
+    width: 660px;
+    height: 264px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+.saleAdv>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* sale two parted end */

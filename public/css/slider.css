@@ -131,6 +131,105 @@
 
 /* second slider end */
 
+/* third slider start */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .ThirdSlider>.mySwiperThird>.swiper-wrapper>.swiper-slide {
+    background: white;
+    display: flex;
+    width: 160px;
+    height: 254px;
+    flex-direction: column;
+    padding: 8px;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+   
+  }
+
+  .ThirdSlider {
+    overflow: hidden;
+    border-radius: 15px;
+  }
+  .ThirdSlider .swiper-slide:last-child {
+    margin-right: 20px; /* Add the extra space only at the end of the last slide */
+  }
+  
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+  }
+
+
+  .incrediblePhoto {
+    width: 144px;
+    height: 132px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .incrediblePhoto>img {
+    width: 132px;
+    height: 132px;
+    object-fit: cover;
+  }
+
+  .OnsaleTitle {
+    font-size: 12px;
+    color: #62666d;
+    cursor: pointer;
+    text-align: right;
+    line-height: 20px;
+    width: 144px;
+    height: 40px;
+    overflow: hidden;
+  }
+  .PricenDiscount {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    fill: var(--Genie);
+    direction: ltr;
+  }
+  .realPrice {
+    font-size: 14px;
+    color: var(--Genie);
+
+  }
+  .saleTag {
+    font-size: 12px;
+    width: 34px;
+    height: 20px;
+    background-color: var(--Paradise-Pink);
+    border-radius: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    position: relative;
+  }
+
+  .onSale {
+    font-size: 11px;
+    color: var(--Cool-Gray);
+    align-self: flex-end;
+    padding-left: 20px;
+    text-decoration: line-through;
+  }
+
+/* third slider end */
+
 
 
 
