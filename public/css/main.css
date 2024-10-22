@@ -70,6 +70,17 @@ main {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 /* incredible offer start */
 
 /* incredible offer right start */
@@ -329,3 +340,280 @@ border-radius: 50%;
     object-fit: cover;
 }
 /* sale two parted end */
+
+
+
+/* assortment 1 start */
+.techology {
+    width: calc(100% - 96px);
+    height: 415px;
+    border-radius: 16px;
+    background-color: white;
+    border: 1px solid var(--bg-snow-white);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.tech {
+    width: 333px;
+    height: 415px;
+    background-color: white;
+    padding: 8px 20px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+    position: relative;
+    border-left: 1px solid var(--bg-snow-white);
+}
+.tech1 {
+    width: 333px;
+    height: 415px;
+    background-color: white;
+    padding: 8px 20px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+    position: relative;
+}
+
+.techphoto {
+    width: 100%;
+    height: 146px;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: aqua;
+    overflow: hidden;
+}
+
+.techphoto2 {
+    width: 100%;
+    height: 146px;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: white;
+    position: relative;
+    bottom: 10px;
+}
+
+.techSubphoto {
+    width: 100%;
+    height: 146px;
+    display: flex;
+    border-bottom: 1px solid var(--bg-snow-white);
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.img1 , .img2 , .img3 , .img4 {
+    width: 146px;
+    height: 146px;
+    padding: 8px;
+}
+
+.img1>img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    display: block;
+}
+.img1 {
+    border-left: 1px solid var(--bg-snow-white);
+}
+.img3 {
+    border-left: 1px solid var(--bg-snow-white);
+}
+.img2>img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    display: block;
+}
+
+.techSubphoto2 {
+    width: 100%;
+    height: 146px;
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.img3>img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    display: block;
+}
+.img4>img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    display: block;
+}
+.seeMore {
+    display: flex;
+    align-items: center;
+    fill: var(--Light-Blue);
+    position: relative;
+    inset: 0;
+    margin: auto;
+    cursor: pointer;
+}
+.check {
+    size: 1.2rem;
+    font-weight: 700;
+    font-stretch: 100%;
+    font-size: 12px;
+   color: var(--Light-Blue);
+}
+.techsub>p {
+    font-size: 11px;
+    color: var(--bg-dark-gray);
+}
+.techtitle>h4 {
+    color: var(--Near-Black);
+    font-size: 15px;
+}
+/* assortment 1 end */
+
+/* digiclub start */
+.digiclub {
+    width: calc(100% - 96px);
+    height: 88px;
+    background: linear-gradient(76.02deg, #35a6c8 33.32%, #007295 71.55%), 
+            radial-gradient(21.294% 87.33% at 50% 50.67%, #7cf216 0%, #35a6c8 100%);
+    margin-top: 8px;
+    padding: 0 16px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 16px;
+}
+.digiclubLogo {
+width: 119px;
+height: 33px;
+object-fit: cover;
+padding-right: 20px;
+}
+.digiclubPhoto {
+    display: flex;
+    gap: 4px;
+}
+.digiContainer {
+    width: 257px;
+    height: 64px;
+    background-color: #fff;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+}
+.digiContainer1 {
+    width: 257px;
+    height: 64px;
+    background-color: #fff;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+}
+.digiContainer2 {
+    width: 257px;
+    height: 64px;
+    background-color: #fff;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+.awardph {
+    width: 166px;
+    height: 60px;
+    object-fit: cover;
+}
+.awardtext{
+    width: 48px;
+    height: 26px;
+    font-size: 10px;
+    margin-right: 7px;
+   
+    line-height: 26px;
+    color: var(--Near-Black);
+    font-weight: 600;
+    z-index: 1;
+}
+.awardsvg {
+    fill: var(--Middle-Blue);
+    margin-top: 5.5px;
+    margin-right: 15px;
+}
+
+/* digiclub end */
+
+/* bestseller start */
+.Bestseller {
+    height: 404px;
+    width: calc(100% - 96px);
+    background-color: green;
+    border-radius: 16px;
+    padding: 16px 0;
+}
+/* .BestCategory {
+    width: 100%;
+    margin-top: 28px;
+}
+.BestTitle {
+    width: 100%;
+    height: 44px;
+    background-color: deeppink;
+}
+.BestColumn {
+    width: 315px;
+    height: 298px;
+    background-color: aqua;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.BestRow {
+    width: 100%;
+    height: 86px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+.BestImg>img {
+    width: 86px;
+    height: 86px;
+    object-fit: cover;
+}
+.number>h2 {
+    margin-left: 11px;
+    font-weight: 800;
+    line-height: 2.1;
+    font-size: 2rem;
+}
+.BestMarket>p {
+    font-size: 12px;
+} */
+/* bestseller end */

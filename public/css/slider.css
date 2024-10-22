@@ -230,6 +230,75 @@
 
 /* third slider end */
 
+/* fourth slider start */
+.SwiperContainer {
+    width: calc(100% - 96px);
+    height: 224px;
+    background-color: white;
+    overflow: hidden; 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+    border-radius: 16px;
+    border: 1px solid var(--bg-snow-white);
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+   
+}
+
+.fourthSlider {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.fourthSlider>.mySwiperFourth>.swiper-wrapper>.swiper-slide {
+    background: white;
+    display: flex;
+    width: 142px;
+    height: 118px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 0.5px solid var( --bg-snow-white);
+    border-left: 0.5px solid var( --bg-gray);
+    margin-top: 10px;
+   
+  }
+  .fourthSlider>.mySwiperFourth>.swiper-wrapper>.swiper-slide>img {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    display: block;
+  }
+  .mySwiperFourth>.swiper-button-next,
+  .swiper-button-prev {
+    background-color: white;
+    border: 1.4px solid var(--bg-snow-white);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    top: 40%;
+  }
+
+
+.TitleContainer {
+    width: 224px;
+    height: 44px;
+    color: var(--Near-Black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #f9bc00;
+    gap: 5px;
+}
+/* fourth slider end */
+
 
 
 
