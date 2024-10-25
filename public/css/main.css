@@ -567,53 +567,11 @@ padding-right: 20px;
 
 /* digiclub end */
 
-/* bestseller start */
-.Bestseller {
-    height: 404px;
-    width: calc(100% - 96px);
-    background-color: green;
-    border-radius: 16px;
-    padding: 16px 0;
-}
-/* .BestCategory {
-    width: 100%;
-    margin-top: 28px;
-}
-.BestTitle {
-    width: 100%;
-    height: 44px;
-    background-color: deeppink;
-}
-.BestColumn {
-    width: 315px;
-    height: 298px;
-    background-color: aqua;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-.BestRow {
-    width: 100%;
-    height: 86px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    overflow: hidden;
-}
-.BestImg>img {
-    width: 86px;
-    height: 86px;
-    object-fit: cover;
-}
-.number>h2 {
-    margin-left: 11px;
-    font-weight: 800;
-    line-height: 2.1;
-    font-size: 2rem;
-}
-.BestMarket>p {
-    font-size: 12px;
-} */
-/* bestseller end */
+/* assortment 2 start */
+
+/* assortment 2 end */
+
+
+
+
+  

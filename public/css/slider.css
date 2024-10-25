@@ -149,14 +149,16 @@
     justify-content: flex-start;
    
   }
+ 
 
   .ThirdSlider {
     overflow: hidden;
     border-radius: 15px;
   }
-  .ThirdSlider .swiper-slide:last-child {
-    margin-right: 20px; /* Add the extra space only at the end of the last slide */
-  }
+  /* hereeeeeeeeeee */
+  .ThirdSlider .swiper-slide:nth-last-of-type(1) {
+    margin-right: 20px; 
+}
   
 
   .swiper-slide img {
@@ -295,11 +297,113 @@
     justify-content: center;
     align-items: center;
     fill: #f9bc00;
-    gap: 5px;
+    gap: 10px;
 }
 /* fourth slider end */
 
 
+
+/* Grid start */
+.Bestseller {
+  height: 404px;
+  width: calc(100% - 96px);
+  background-color: white;
+  border-radius: 16px;
+  padding: 16px 0;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid var(--bg-snow-white);
+}
+
+.BestTitle {
+  width: 100%;
+  height: 44px;
+  background-color: white;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  fill: var(--Gold);
+  color: var(--Near-Black);
+}
+.BestTitle>p {
+  font-weight: 500;
+  font-size: 21px;
+}
+
+.mySwiperGrid {
+  width: 99%;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mySwiperGrid > .swiper-wrapper {
+  display: flex;
+}
+
+
+.mySwiperGrid > .swiper-wrapper > .swiper-slide {
+  width: 315px; 
+  display: flex;
+  flex-direction: column; 
+  gap: 16px; 
+}
+
+
+.mySwiperGrid > .swiper-wrapper > .swiper-slide > .slide-item {
+  width: 315px;
+  height: 86px;
+  background-color: white; 
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  position: relative;
+}
+.mySwiperGrid > .swiper-wrapper > .swiper-slide > .slide-item>.Bparag::after {
+  content: '';
+  position: absolute;
+  background-color: var(--bg-snow-white);
+  bottom: -27px; 
+  left: 0;
+  width: 100%;
+  height: 1px; 
+  
+}
+
+.mySwiperGrid > .swiper-wrapper > .swiper-slide > .slide-item > img {
+  width: 86px;
+  height: 86px;
+  object-fit: cover;
+}
+.Bnumber {
+  margin-left: 11px;
+  margin-right: 5px;
+  font-weight: 800;
+  line-height: 2;
+  font-size: 1.5rem;
+  color: var(--Light-Blue);
+}
+.Bparag {
+  font-size: 11px;
+  width: 198px;
+  height: 48px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: var(--Genie);
+  line-height: 2.17;
+
+}
+.Bparag>p {
+  font-size: 11px;
+  color: var(--Genie);
+  line-height: 2.17;
+}
+
+/* Grid end */
 
 
  
