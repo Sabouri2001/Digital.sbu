@@ -361,7 +361,30 @@
   align-items: center;
   font-size: 14px;
   position: relative;
+  cursor: pointer;
 }
+
+/* in order to fix the border */
+.mySwiperGrid > .swiper-wrapper > .swiper-slide > .slide-item1 {
+  width: 315px;
+  height: 86px;
+  background-color: white; 
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  position: relative;
+  cursor: pointer;
+}
+.mySwiperGrid > .swiper-wrapper > .swiper-slide > .slide-item1 > img {
+  width: 86px;
+  height: 86px;
+  object-fit: cover;
+}
+/* done with it */
+
+
 .mySwiperGrid > .swiper-wrapper > .swiper-slide > .slide-item>.Bparag::after {
   content: '';
   position: absolute;
