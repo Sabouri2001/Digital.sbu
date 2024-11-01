@@ -13,10 +13,10 @@
 .mySwiper .swiper-slide {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center content vertically */
+    justify-content: center; 
     align-items: center;
-    width: 84px; /* Fixed width for the slide */
-    height: 170px; /* Fixed height for the entire slide */
+    width: 84px; 
+    height: 170px; 
     margin: auto;
 }
 
@@ -35,14 +35,13 @@
     border-left: 3px solid #9B489B;
 }
 
-/* Fix the height of the text container */
+
 .slidetext {
     font-size: 11px;
     text-align: center;
-    width: 84px; /* Matches image width */
+    width: 84px; 
     display: block;
-    height: 60px; /* Fixed height for text container */
-     /* Prevents text from overflowing */
+    height: 60px; 
     padding-top: 8px;
     color: var(--Genie);
     
@@ -80,6 +79,7 @@
 .swiper-button-prev::after {
     font-size: 13px; 
     color: var(--Dark-Gray);
+    top: 55%;
 }
 /* first slider end */
 
@@ -113,8 +113,7 @@
     object-fit: cover;
   }
 
-  .mySwiperSecond>.swiper-button-next,
-  .swiper-button-prev {
+  .mySwiperSecond>.swiper-button-next {
       background-color: white;
       border: 1.4px solid var(--bg-snow-white);
       border-radius: 50%;
@@ -122,6 +121,16 @@
       height: 40px;
       top: 90%;
       right: 4%;
+      margin-right: 20px;
+  }
+  .mySwiperSecond>.swiper-button-prev {
+      background-color: white;
+      border: 1.4px solid var(--bg-snow-white);
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      top: 90%;
+      right: 0;
       margin-right: 20px;
   }
 
@@ -132,6 +141,24 @@
 /* second slider end */
 
 /* third slider start */
+.mySwiperThird>.swiper-button-next {
+  background-color: white;
+  border: 1.4px solid var(--bg-snow-white);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  margin-right: 20px;
+}
+.mySwiperThird>.swiper-button-prev {
+  background-color: white;
+  border: 1.4px solid var(--bg-snow-white);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  margin-right: 0px;
+}
 .swiper {
     width: 100%;
     height: 100%;
@@ -155,10 +182,7 @@
     overflow: hidden;
     border-radius: 15px;
   }
-  /* hereeeeeeeeeee */
-  .ThirdSlider .swiper-slide:nth-last-of-type(1) {
-    margin-right: 20px; 
-}
+
   
 
   .swiper-slide img {

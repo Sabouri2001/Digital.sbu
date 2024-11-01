@@ -203,6 +203,8 @@ list-style: none;
 
 /* email end */
 
+/*  download the app start */
+
 .dlApp {
     width: calc(100% - 40px);
     height: 76px;
@@ -267,12 +269,9 @@ list-style: none;
     background-color: white;
 }
 
+/*  download the app end */
 
-
-
-
-
-
+/* certificate start */
 .certificate {
     width: calc(100% - 40px) ;
     height: 224px;
@@ -286,11 +285,22 @@ list-style: none;
 }
 
 .longText {
-    width: calc(100% - 391px);
+    width: 100%;
     height: 125px;
     overflow: hidden;
     margin-left: 40px;
     position: relative;
+}
+.textnmore {
+    width: calc(100% - 391px);
+    height: 159px;
+    overflow: hidden;
+    margin-left: 40px;
+    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .show {
@@ -312,7 +322,7 @@ list-style: none;
 }
 
 .longText>p {
-    font-size: 11px;
+    font-size: 12px;
     line-height: 2.17;
     color: var(--text-Gray);
 }
@@ -331,5 +341,65 @@ list-style: none;
     height: 100px; 
     background: linear-gradient(180deg, hsla(0, 0%, 100%, 0) 50%, #fff);
 }
+/* certificate end */
 
+/* end text start */
+div.endText {
+    width: calc(100% - 40px);
+    height: 88px;
+    font-size: 11px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-Gray);
+    border-top: 1px solid var(--bg-snow-white);
+}
+/* end test end */
+.brandz {
+    width: 100%;
+    height: 80px;
+    background-color: var(--bg-gray);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.myBrands {
+    width: 100%;
+
+}
+.digii {
+    width: 179px;
+    height: 80px;
+    border-right: 0.5px solid var(--bg-snow-white);
+    border-left: 0.5px solid var(--bg-snow-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+}
+.digii>img {
+    object-fit: contain;
+    height: 20px;
+}
+.digii2 {
+    width: 239px;
+    height: 80px;
+    border-right: 0.5px solid var(--bg-snow-white);
+    border-left: 0.5px solid var(--bg-snow-white);
+    border-top: 1px solid var(--bg-snow-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+
+.digii:nth-last-of-type(6)>img {
+    height: 20px;
+    width: 86px;
+}
+/* brands start */
+/* brands end */
 

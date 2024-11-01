@@ -1,0 +1,79 @@
+@import "./setting.css";
+@import "./header.css";
+@import "./footer.css";
+@import url(./sliderII.css);
+
+
+main {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.redTop {
+    width: 100%;
+    height: 64px;
+    background-color: brown;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/* second slider */
+.SecondSlider {
+    width: 100%;
+    height: 400px;
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .mySwiperSecond>.swiper-button-next {
+      background-color: white;
+      border: 1.4px solid var(--bg-snow-white);
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      top: 90%;
+      right: 4%;
+      margin-right: 20px;
+  }
+  .mySwiperSecond>.swiper-button-prev {
+      background-color: white;
+      border: 1.4px solid var(--bg-snow-white);
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      top: 90%;
+      right: 0;
+      margin-right: 20px;
+  }
+
+
+  .mySwiperSecond {
+    cursor: pointer;
+  }
+
+/* second slider end */
+
+
