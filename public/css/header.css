@@ -211,6 +211,7 @@ p {
     align-items: center;
     padding-right: 8px;
     cursor: pointer;
+    
 }
 .menuitemsSecond {
     width: 100%;
@@ -332,6 +333,7 @@ p {
 .menuitems:hover .MobileSubmenu {
     display: block;
 } 
+
 .menuitems:hover .SubMenuVariety {
     z-index: 2;
 }
@@ -352,6 +354,14 @@ p {
     z-index: 4;
 }
 
+.menuitems:hover .menutext {
+    color: red;
+    fill: red;
+}
+.menuitems:hover svg {
+    fill: red !important;
+    color: red !important;
+}
 /* bakhshe 3 menu */
 
 .menuitemsThird {
