@@ -15,7 +15,7 @@ main {
 .redTop {
     width: 100%;
     height: 64px;
-    background-color: brown;
+    background-color: #ef4056;
     display: flex;
     flex-flow: row wrap;
     align-items: center;

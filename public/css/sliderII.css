@@ -172,23 +172,7 @@
     width: calc(100% - 32px);
     height: 166px;
 }
-/* .categorized {
-    width: 100%;
-    height: 160px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: blue;
-} */
-/* .subcategory {
-    width: 108px;
-    height: 160px;
-    margin: 0 19px;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-} */
+
 .subcategory>img {
     width: 90px;
     height: 90px;
@@ -257,12 +241,13 @@
       height: 384px;
       flex-direction: column;
       padding: 12px 8px;
-      gap: 8px;
+      gap: 15px;
       align-items: flex-start;
       justify-content: flex-start;
       cursor: pointer;
       border-radius: 8px;
       overflow: hidden;
+      border-left: 0.5px solid var(--bg-snow-white);
      
     }
    
@@ -292,26 +277,24 @@
 
   }
     .incrediblePhoto {
-      width: 176px;
+      width: 150px;
       height: 150px;
       background-color: white;
       display: flex;
       align-items: center;
       justify-content: center;
+      margin: 0 auto;
+      margin-top: 4px;
     }
-    .incrediblePhoto>img {
-      width: 150px;
-      height: 150px;
-      object-fit: cover;
-    }
+   
   
     .OnsaleTitle {
       font-size: 12px;
-      color: #62666d;
+      color: var(--Genie);
       cursor: pointer;
       text-align: right;
       line-height: 20px;
-      width: 144px;
+      width: 100%;
       height: 40px;
       overflow: hidden;
     }
@@ -387,6 +370,239 @@
     height: 145px;
     object-fit: cover;
 }
+
+
+
+.ThirdSlider>.mySwiperThird>.swiper-wrapper>.swiper-slide>img {
+width: 150px;
+height: 150px;
+object-fit: contain !important;
+}
+
+
+
+
+
+/* finish start */
+
+.finish {
+    width: calc(100% - 32px);
+    height: 461px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid var(--bg-snow-white);
+    
+}
+
+.finish>span {
+    width: 100%;
+    height: 67px;
+    display: block;
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    position: relative;
+    
+}
+.finish>span>p {
+    padding-right: 8px;
+}
+
+
+.finish>span::before {
+    content: "";
+    position: absolute;
+    right: 17px;
+    bottom: 5px; /* Position 10px below the text */
+    width: 5%; /* Length of the line */
+    height: 2px; /* Thickness of the line */
+    background-color: var(--Line-Red); /* Line color */
+}
+/* finish end */
+
+
+/* supermarket start */
+.incredibleSupermarket {
+    width: calc(100% - 96px);
+    height: 110px;
+    background-color: var(--App-Background);
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 16px;
+    position: relative;
+    cursor: pointer;
+}
+
+.incredibleInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row wrap;
+}
+
+.superbox {
+    width: 62px;
+    height: 66px;
+}
+.superbox>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.supertext {
+    width: 250px;
+    height: 28px;
+    margin: 0 20px;
+}
+.supertext>img {
+    width: 100%;
+    height: 100%;
+}
+
+.superbutton {
+    width: 110px;
+    height: 28px;
+    background-color: var(--Persian-Green);
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.superbutton>span {
+color: white;
+font-size: 14px;
+}
+
+/* left side */
+.incredibleChoose {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.incredibleOption {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.ChooseOptions {
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 8px;
+    margin: 16px 0 16px 8px;
+    z-index: 1;
+    position: relative;
+    
+}
+.saleTag2 {
+    font-size: 12px;
+    width: 34px;
+    height: 20px;
+    background-color: var(--Paradise-Pink);
+    border-radius: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 18px;
+    left: 8px;
+  }
+.ChooseOptions>img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 50%;
+}
+.moreProductbtn {
+    width: 142.55px;
+    height: 50.04px;
+    background-color: white;
+    padding: 12px 20px;
+    margin-left: 8px; 
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    z-index: 1;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    gap: 8px;
+    color: var(--Persian-Green);
+    fill: var(--Persian-Green);
+}
+.svgunder {
+    position: absolute;
+    left: 0;
+}
+/* incredible supermarket end */
+
+/* plus start */
+.plus {
+    width: calc(100% - 96px);
+    height: 110px;
+    background-color: var(--light-Purple);
+   display: flex;
+   flex-flow: column wrap;
+   align-items: flex-end;
+    border-radius: 16px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.plus>.specialMember {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: purple;
+    color: purple;
+    padding-left: 30px;
+    padding-top: 26px;
+    gap: 4px;
+    font-size: 16px;
+}
+
+.plus>.timeLeft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 60px;
+    font-size: 12px;
+    gap: 4px;
+    color: purple;
+    fill: purple;
+    padding-bottom: 10px;
+}
+
+.plus>.salentime {
+    position: absolute;
+    right: 30px;
+}
+.plus>.justpattern {
+    position: absolute;
+    right: 0;
+}
+
+.plus>.patternup {
+    position: absolute;
+    top: -75%;
+    left: -11%;
+}
+/* plus end */
+
+
+
 
 
 

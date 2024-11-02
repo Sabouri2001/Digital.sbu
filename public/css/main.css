@@ -146,6 +146,7 @@ main {
     align-items: center;
     border-radius: 16px;
     position: relative;
+    cursor: pointer;
 }
 
 .incredibleInfo {
@@ -179,6 +180,13 @@ main {
     height: 28px;
     background-color: var(--Persian-Green);
     border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.superbutton>span {
+color: white;
+font-size: 14px;
 }
 
 /* left side */
@@ -238,6 +246,14 @@ border-radius: 50%;
     justify-content: center;
     border-radius: 9999px;
     z-index: 1;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    gap: 8px;
+    color: var(--Persian-Green);
+    fill: var(--Persian-Green);
 }
 .svgunder {
     position: absolute;
