@@ -32,6 +32,7 @@ main {
     flex-direction: column; 
     align-items: center;   
     justify-content: flex-start; 
+    cursor: pointer;
 }
 
 .SubMainCategory>img {
@@ -96,6 +97,7 @@ main {
     align-items: center;
     flex-flow: row nowrap;
     row-gap: 16px;
+    cursor: pointer;
 }
 
 .incredibleoffers {
@@ -278,6 +280,7 @@ border-radius: 50%;
     background-color: #fff;
     border-radius: 16px;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .adv>img {
@@ -317,6 +320,7 @@ border-radius: 50%;
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 .subcategory>img {
     width: 100px;
@@ -778,5 +782,45 @@ padding-right: 20px;
 
 
 
+/* support start */
+.support {
+    width: 48px;
+    height: 48px;
+    position: fixed;
+    background-color: var(--Sweet-Red);
+    bottom: 4%;
+    right: 4%;
+    z-index: 9999;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    fill: white;
+}
 
+.BuyMarket {
+    width: 130px;
+    height: 52px;
+    position: fixed;
+    background-color: green;
+    bottom: 4%;
+    left: 2%;
+    z-index: 9999;
+    border-radius: 9999px;
+    cursor: pointer;
+    color: white;
+    fill: white;
+    padding: 10px 12px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+.BuyMarket>span {
+    font-size: 15px;
+}
+/* support end */
   

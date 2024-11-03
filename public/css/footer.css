@@ -314,6 +314,7 @@ list-style: none;
     background-color: aliceblue;
     margin-right: 8px;
     border-radius: 8px;
+    cursor: pointer;
 }
 .testimony>img {
     width: 100%;
@@ -378,6 +379,7 @@ div.endText {
     justify-content: center;
     align-items: center;
     padding: 0px 20px;
+    cursor: pointer;
 }
 .digii>img {
     object-fit: contain;
