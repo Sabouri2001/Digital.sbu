@@ -73,7 +73,156 @@ main {
   .mySwiperSecond {
     cursor: pointer;
   }
+/* support start */
 
+
+.BuyMarket {
+    width: 130px;
+    height: 52px;
+    position: fixed;
+    background-color: var(--Market-Green);
+    bottom: 4%;
+    left: 2%;
+    z-index: 9999;
+    border-radius: 9999px;
+    cursor: pointer;
+    color: white;
+    fill: white;
+    padding: 10px 12px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+.BuyMarket>span {
+    font-size: 15px;
+}
+/* support end */
+
+/* support btn start */
+.support {
+    width: 48px;
+    height: 48px;
+    position: fixed;
+    background-color: var(--Sweet-Red);
+    bottom: 4%;
+    right: 4%;
+    z-index: 9999;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    fill: white;
+}
+
+.ShowS {
+    width: 360px;
+    height: 496px;
+    background-color: white;
+    position: fixed;
+    bottom: 10.8%;
+    right: 4%;
+    z-index: 9999;
+    border-radius: 20px;
+    display: none; 
+    border: 1px solid var(--Sweet-Red);
+}
+
+.supportContent {
+    width: 360px;
+    height: calc(496px - 55px);
+    overflow: auto;
+}
+
+.active1 {
+    display: block; 
+}
+
+.headerContent {
+    width: 100%;
+    height: 55px;
+    background-color: var(--Sweet-Red);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.support:active svg {
+    display: none;
+}
+
+
+
+.headerContent>span {
+    font-size: 20px;
+    color: white;
+    fill: white;
+    padding: 0 16px;
+}
+#popup-closeS {
+    font-size: 25px;
+}
+.hi {
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+h5 {
+    line-height: 2.15;
+}
+
+.mainContent {
+    padding: 0 8px;
+    width: 360px;
+    height: 500px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    gap: 10px;
+    overflow: auto;
+}
+
+.content3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    font-size: 14px;
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--bg-snow-white);
+    border-radius: 5px;
+    padding: 24px 6px;
+    font-size: 14px;
+}
+.control {
+    width: 92%;
+}
+
+.CallUs {
+    width: 128px;
+    height: 48px;
+    border-radius: 9999px;
+    background-color: var(--Sweet-Red);
+   margin-top: 38px;
+   align-self: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 14px;
+   color: white;
+   fill: white;
+   gap: 10px;
+   cursor: pointer;
+
+}
+/* support btn end */
 /* second slider end */
 
 

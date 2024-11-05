@@ -176,6 +176,7 @@
     align-items: center;
     justify-content: flex-start;
     cursor: pointer;
+    position: relative;
    
   }
  
@@ -185,7 +186,39 @@
     border-radius: 15px;
   }
 
-  
+
+  .ThirdSlider>.mySwiperThird>.swiper-wrapper>.swiper-slide:nth-last-of-type(1) {
+    background: white;
+    display: flex;
+    width: 160px;
+    height: 254px;
+    flex-direction: column;
+    padding: 8px;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--Genie);
+    row-gap: 15px;
+  }
+
+
+  .moreCircle {
+    width: 52px;
+    height: 52px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 2px solid var(--Light-Blue);
+    fill: var(--Light-Blue);
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
 
   .swiper-slide img {
     display: block;
@@ -330,6 +363,18 @@
 
 
 /* Grid start */
+
+.mySwiperGrid>.swiper-button-next,
+  .swiper-button-prev {
+    background-color: white;
+    border: 1.4px solid var(--bg-snow-white);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+  }
+
+
 .Bestseller {
   height: 404px;
   width: calc(100% - 96px);

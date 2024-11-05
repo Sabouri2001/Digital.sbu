@@ -109,8 +109,32 @@
 
 
 
+.redishSlider>.mySwiperRed>.swiper-wrapper>.swiper-slide:nth-last-of-type(1)::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 110%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.415);
+    z-index: 9;
+    cursor: auto;
 
-
+}
+.faded {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: var(--Sweet-Red);
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: white;
+    
+}
 
 .redishSlider {
     width: 100%;
@@ -119,11 +143,63 @@
 .redishSlider>.mySwiperRed>.swiper-wrapper>.swiper-slide {
     width: 576px;
     height: 259px;
+    display: flex;
+    align-items: flex-start;
+    flex-flow: column wrap;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    overflow: hidden;
+    cursor: pointer;
 }
   
+.redPhoto {
+    width: 200px;
+    height: 200px;
+}
 
-
-
+.pricenphoto {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    font-size: 12px;
+    padding: 0 6px;
+}
+.reddesc {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-flow: column wrap;
+    padding: 16px 10px;
+    overflow: hidden;
+    background-color: white;
+    text-align: right;
+    line-height: 2;
+    gap: 10px;
+}
+.realPrice1 {
+    font-size: 16px;
+}
+.star {
+    padding-right: 310px;
+}
+.color {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 8px;
+    fill: gold;
+}
+.color1 {
+    width: 14px;
+    height: 14px;
+    background-color: gainsboro;
+    border-radius: 50%;
+}
 .swiper {
     width: 100%;
     height: 100%;
@@ -413,10 +489,10 @@ object-fit: contain !important;
     content: "";
     position: absolute;
     right: 17px;
-    bottom: 5px; /* Position 10px below the text */
-    width: 5%; /* Length of the line */
-    height: 2px; /* Thickness of the line */
-    background-color: var(--Line-Red); /* Line color */
+    bottom: 5px; 
+    width: 5%; 
+    height: 2px; 
+    background-color: var(--Line-Red);
 }
 /* finish end */
 
@@ -559,6 +635,7 @@ border-radius: 50%;
     position: relative;
     cursor: pointer;
     overflow: hidden;
+    margin-bottom: 18px;
 }
 
 .plus>.specialMember {
